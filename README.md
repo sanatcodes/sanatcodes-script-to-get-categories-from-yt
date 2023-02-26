@@ -21,7 +21,7 @@ python main.py --category Music
 The results are output as a CSV file in the output folder.
 
 🤖 Acknowledgements
-This script is inspired by the work of Syahrul Hamdani on the Indonesia's Trending YouTube Video Statistics dataset.
+This script is inspired by the work of [Syahrul Hamdani](https://syahrulhamdani.medium.com/) on the [Indonesia's Trending YouTube Video Statistics dataset](https://www.kaggle.com/datasets/syahrulhamdani/indonesias-trending-youtube-video-statistics).
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
