@@ -1,8 +1,11 @@
 """Module consists of necessary configurations."""
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 LOG_LEVEL = os.getenv("LOG_LEVEL", "DEBUG")
 
-API_KEY = os.getenv("API_KEY", "AIzaSyCYFvoCfs6D4OJe7eJfec_0192f234JPzg")
-URL = os.getenv("URL", "https://youtube.googleapis.com/youtube/v3/videos")
+API_KEY = os.getenv("API_KEY")
+URL = os.getenv("URL")
 DATADIR = os.getenv("DATADIR", "data")
